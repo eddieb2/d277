@@ -1,0 +1,191 @@
+html {
+	font-family: 'Roboto', sans-serif !important;
+	margin: 0;
+}
+
+body {
+	color: white !important;
+	font-size: 2.4rem !important;
+	margin: 0;
+}
+
+nav {
+	display: flex;
+}
+
+a {
+	width: 25%;
+	text-align: center;
+}
+
+a:hover {
+	color: #836148;
+}
+
+.container {
+	position: relative;
+	z-index: 1;
+}
+
+.box {
+	background-color: white;
+	border: 1px solid black;
+	color: black;
+	margin-left: 0.5rem;
+}
+
+.header-container {
+	color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 8rem 5rem 2rem 5rem;
+}
+
+.header-pa-container {
+	font-size: 10rem;
+}
+
+img {
+	z-index: 0;
+	position: fixed;
+	opacity: 0.9;
+	width: 100%;
+	height: 100%;
+}
+
+.section-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.main-section {
+	border: 1px solid white;
+	padding: 1rem;
+	background-color: white;
+	color: black;
+	opacity: 0.7;
+	width: 45%;
+	font-size: 1.8rem;
+}
+
+#main-section-override {
+	font-size: 1.6rem;
+}
+
+.img-float {
+	float: right;
+	width: 50px;
+	height: 50px;
+}
+
+aside {
+	position: absolute;
+	right: 40%;
+	top: 95%;
+	background-color: #836148;
+	font-size: 1.2rem;
+	width: 20%;
+	padding: 10px;
+}
+
+#main-aside {
+	position: absolute;
+	right: 15%;
+}
+
+/* City Pages Styles*/
+.state-section-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+}
+
+/* Information Page Styles */
+label {
+	font-size: 1.2rem;
+}
+
+form div {
+	margin-bottom: 2rem;
+}
+
+input {
+	margin-bottom: 0.5rem;
+}
+
+table {
+	margin-top: 1rem;
+	padding: 10px;
+	border-collapse: collapse;
+	color: black;
+}
+
+td,
+th {
+	border: 1px solid #dddddd;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+.info-container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.contact-form {
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid white;
+	background-color: white;
+	color: black;
+	opacity: 0.9;
+	width: 45%;
+	height: 50vh;
+	font-size: 1.8rem;
+}
+.table-container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 1rem;
+	opacity: 0.9;
+	background-color: white;
+	color: black;
+	width: 40%;
+}
+
+.wealthiest-cities-container {
+	width: 40%;
+	opacity: 0.9;
+	background-color: white;
+	color: black;
+}
+
+/* FLOAT DOES NOT WORK WITH FLEXBOX OR ABSOLUTELY POSITIONED ELEMENTS */
+.float-use {
+	width: 45%;
+	position: relative;
+	opacity: 1;
+	background-color: #836148;
+}
+
+.img-float {
+	float: right;
+	width: 100px;
+	height: 100px;
+	opacity: 1;
+	position: relative;
+}
+
+#aside-contact {
+	width: 30%;
+}

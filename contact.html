@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/css/index.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Contact</title>
+	</head>
+	<body>
+		<section>
+			<img src="/media/main.jpg" alt="PA forest." />
+			<div class="container">
+				<nav>
+					<a href="./index.html" class="box">Home</a>
+					<a href="./harrisburg.html" class="box">Harrisburg</a>
+					<a href="./pittsburgh.html" class="box">Pittsburgh</a>
+					<a href="./philadelphia.html" class="box">Philadelphia</a>
+					<a href="./info.html" class="box">Information</a>
+					<a href="./contact.html" class="box">Contact</a>
+				</nav>
+			</div>
+			<div class="info-container">
+				<form class="contact-form">
+					<div>Contact Us</div>
+
+					<label for="">First Name</label>
+					<input type="text" name="first_name" id="" placeholder="Joe" />
+
+					<label for="">Last Name</label>
+					<input type="text" name="last_name" id="" placeholder="Smith" />
+
+					<label for="">Email</label>
+					<input type="email" name="email" id="emailInput1" placeholder="xyz@email.com" />
+
+					<label for="">Confirm Email</label>
+					<input
+						type="email"
+						name="confirm_email"
+						id="emailInput2"
+						placeholder="xyz@email.com"
+					/>
+
+					<label for="">Questions</label>
+					<textarea
+						name="questions"
+						id=""
+						cols="30"
+						rows="10"
+						placeholder="Enter text here."
+					></textarea>
+
+					<button type="submit">Submit</button>
+				</form>
+			</div>
+			<!-- FLOAT DOES NOT WORK WITH FLEXBOX OR ABSOLUTELY POSITIONED ELEMENTS-->
+			<!-- I HAD TO CREATE A RANDOM SECTION TO GET THIS TO WORK BECAUSE THE WHOLE PROJECT USES FLEXBOX-->
+			<aside id="aside-contact">
+				<div class="float-use">
+					<img src="./media/phone.png" alt="cell phone" class="img-float" />
+					Do not hesitate to ask us any questions! We are available Monday through Friday
+					from 9 am to 5 pm.
+				</div>
+			</aside>
+		</section>
+
+		<script src="javascript/script.js"></script>
+	</body>
+</html>
